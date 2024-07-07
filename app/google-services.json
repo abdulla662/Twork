@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "470476770597",
+    "project_id": "twork-5d785",
+    "storage_bucket": "twork-5d785.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470476770597:android:d971616498e29e497b1ecc",
+        "android_client_info": {
+          "package_name": "com.youssef.twork"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAARbOCp9VQinouZDs6JSYbBAoIpz6-Ogo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Twork"
+        tools:targetApi="31" >
+        <activity
+            android:name=".mainpagecompany"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage"
+            android:exported="false" />
+        <activity
+            android:name=".acceptancepage"
+            android:exported="false" />
+        <activity android:name=".FormsActivity" />
+        <activity
+            android:name=".jobupload"
+            android:exported="false" />
+        <activity
+            android:name=".comanyactivity2"
+            android:exported="false" />
+        <activity
+            android:name=".tworkcompany"
+            android:exported="false" />
+        <activity
+            android:name=".Twork8"
+            android:exported="false" />
+        <activity
+            android:name=".Twork7"
+            android:exported="false" />
+        <activity
+            android:name=".Twork6"
+            android:exported="false" />
+        <activity
+            android:name=".Twork5"
+            android:exported="false" />
+        <activity
+            android:name=".twork4"
+            android:exported="false" />
+        <activity
+            android:name=".Twork3"
+            android:exported="false" />
+        <activity
+            android:name=".TworkPage2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
